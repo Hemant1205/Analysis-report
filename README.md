@@ -76,7 +76,7 @@ Q point is (0.541,55.55uA)
 
 # Results:
 1.**DC Analysis:**
-![Image](https://github.com/user-attachments/assets/0f5d08a5-fd69-4f05-9aae-abc4f6e58ae1)
+![Image](https://github.com/user-attachments/assets/ececb0f3-5dc9-4b68-8b71-8191dc9fdfd8)
 Id=55.55uA
 
 Vout=0.543V
