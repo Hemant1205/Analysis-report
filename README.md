@@ -98,4 +98,31 @@ Gain=-20dB
 2) The mosfet must operate in the saturation region to get desired negative gain.
 3)  A stable Q-point is achieved in the saturation region, which is essential for linear amplification
 4)  There is 180' phase diffrence between output and input
+5)  MOSFET amplifier acheives maximum gain in mid band frequency.
+
+ # CIRCUIT 2:
+ #### i)CIRCUIT DIAGRAM:
+ 
+![Image](https://github.com/user-attachments/assets/da3ed7d8-bb41-495a-9714-fa73af8a1c3f)
+
+
+
+# dc analysis:
+![Image](https://github.com/user-attachments/assets/42ba850e-8b4c-4596-bc4f-7617feb9dc59)
+
+This confirms the mosfet is still working in the Saturation Region.VGD is Greater than VTH Hence it is in Saturation Region(VGD>VTH).
+
+# transient analysis:
+![Image](https://github.com/user-attachments/assets/34bdf3f8-d163-4f1f-84fd-23f94a985075)
+
+The Voltage Gain is (1.4331-1.31)V/100mV = 1.232 v/v .
+# ac analysis :
+
+![Image](https://github.com/user-attachments/assets/c2518a54-99af-4d18-bfe9-11424faa488e)
+
+# inference :
+1) The current equation id tells  that current is directly proportional to the width and inversly proportional to the length.
+2) The mosfet must operate in the saturation region to get desired negative gain.
+3)  A stable Q-point is achieved in the saturation region, which is essential for linear amplification
+4)  There is 180' phase diffrence between output and input
 5)  MOSFET amplifier acheives maximum gain in mid band frequency. 
