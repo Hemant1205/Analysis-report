@@ -103,22 +103,20 @@ Gain=-20dB
  # CIRCUIT 2:
  #### i)CIRCUIT DIAGRAM:
  
-![Image](https://github.com/user-attachments/assets/da3ed7d8-bb41-495a-9714-fa73af8a1c3f)
-
-
+![Image](https://github.com/user-attachments/assets/763ff936-27d5-43c6-acf9-fab1f08e0b8a)
 
 # dc analysis:
-![Image](https://github.com/user-attachments/assets/42ba850e-8b4c-4596-bc4f-7617feb9dc59)
+![Image](https://github.com/user-attachments/assets/89f3fdda-68de-442b-823f-f1aaa81df024)
 
 This confirms the mosfet is still working in the Saturation Region.VGD is Greater than VTH Hence it is in Saturation Region(VGD>VTH).
 
 # transient analysis:
-![Image](https://github.com/user-attachments/assets/34bdf3f8-d163-4f1f-84fd-23f94a985075)
+![Image](https://github.com/user-attachments/assets/0a721fd4-4055-45be-8cd4-f3211b925dcd)
 
 The Voltage Gain is (1.4331-1.31)V/100mV = 1.232 v/v .
 # ac analysis :
 
-![Image](https://github.com/user-attachments/assets/c2518a54-99af-4d18-bfe9-11424faa488e)
+![Image](https://github.com/user-attachments/assets/0f0b3303-63cc-408c-989e-e164dd9fbc2b)
 
 # inference :
 1) The current equation id tells  that current is directly proportional to the width and inversly proportional to the length.
