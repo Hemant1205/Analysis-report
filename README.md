@@ -40,6 +40,7 @@ Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 6.**AC Analysis:** Go to spice directive and give the library file path for the simulator to access the data through the path . Go to simulate option in the tab , edit simulation command , click on AC analysis 
 and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T)
 # CIRCUIT 1 :
+![Image](https://github.com/user-attachments/assets/b8720a61-b42f-4572-a930-f442f3dcacf7)
 
 # Calculation :
 Power = 100uW
@@ -75,6 +76,7 @@ Q point is (0.541,55.55uA)
 
 # Results:
 1.**DC Analysis:**
+![Image](https://github.com/user-attachments/assets/0f5d08a5-fd69-4f05-9aae-abc4f6e58ae1)
 Id=55.55uA
 
 Vout=0.543V
@@ -84,9 +86,12 @@ Width=0.3um
 DC Operating point : (0.543,55uA) is obtained for 0.3um Width and 180nm Length.
 
 2.**Transient Analysis:**
+
+![Image](https://github.com/user-attachments/assets/fb205948-8c4d-4bba-b233-3feb8267ba8b)
 Vout=0.543V
 There is 180 degree phase shift between input and output or the DC level shift.
 3.**AC Analysis:**
+![Image](https://github.com/user-attachments/assets/1c590da8-b7bb-4690-bf5c-d5e64759b4be)
 Gain=-20dB
 # inference :
 1) The current equation id tells  that current is directly proportional to the width and inversly proportional to the length.
